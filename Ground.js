@@ -9,6 +9,7 @@ class Ground {
       World.add(world, this.body);
     }
     display(){
+      //giving a short name for position
       var pos =this.body.position;
       rectMode(CENTER);
       fill("brown");
